@@ -12,6 +12,9 @@
 0 == true  # false
 0 == false # false
 
+# Well, except
+if(0, true, false) #=> true... So it's truthy? Truthish?
+
 Object slotNames println
 
 # =   -> assignment (will throw error if slot doesn't exist)
